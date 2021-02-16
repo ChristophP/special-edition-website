@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "lint": "eslint src && elm-format src --validate",
+    "lint:fix": "eslint src --fix && elm-format src --yes"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "autoprefixer": "^9.8.6",
+    "elm": "^0.19.1-5",
+    "elm-format": "^0.8.5",
+    "elm-hot": "^1.1.6",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "node-elm-compiler": "^5.0.5",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^8.1.9",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.1-compat",
+    "vercel": "^21.2.3"
+  }
+}
