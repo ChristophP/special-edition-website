@@ -1,5 +1,12 @@
-
 @tailwind base;
+
+
+:root {
+  --se-purple: hsl(240, 60%, 76%);
+  /*--se-purple: rgb(187, 187, 205);*/
+  --se-yellow: hsl(66, 100%, 50%);
+  /*--se-yellow: rgb(226, 255, 0);*/
+}
 
 /* my resets */
 html, body {
@@ -7,9 +14,8 @@ html, body {
 }
 
 body {
-  font-size: 16px;
-  @apply w-full bg-purple-300;
-  color: #fff917;
+  font-size: 24px;
+  @apply w-full text-white;
 }
 
 svg {
@@ -21,6 +27,20 @@ svg {
 
 @tailwind utilities;
 
-/* put custom utilities here */
+.font-gramers {
+  font-family: "Gramers Light"
+}
+
+.font-open-sans {
+  font-family: "Open Sans"
+}
+
+.se-bg-purple {
+  background-color: var(--se-purple);
+}
+
+.se-text-yellow {
+  color: var(--se-yellow);
+}
 
 
