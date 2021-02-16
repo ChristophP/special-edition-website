@@ -76,6 +76,6 @@
   font-family: 'Gramers Light';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/Gramers Light.woff2') format('woff2');
+  src: url("./assets/fonts/Gramers_Light.woff2") format('woff2');
 }
 

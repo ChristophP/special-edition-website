@@ -1,6 +1,5 @@
 @tailwind base;
 
-
 :root {
   --se-purple: hsl(240, 60%, 76%);
   /*--se-purple: rgb(187, 187, 205);*/
