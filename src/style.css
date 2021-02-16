@@ -8,6 +8,8 @@ html, body {
 
 body {
   font-size: 16px;
+  @apply w-full bg-purple-300;
+  color: #fff917;
 }
 
 svg {

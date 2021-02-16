@@ -8,9 +8,6 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^9.8.6",
-    "elm": "^0.19.1-5",
-    "elm-format": "^0.8.5",
-    "elm-hot": "^1.1.6",
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^7.2.0",
