@@ -24,6 +24,13 @@ svg {
 
 @tailwind components;
 
+.link {
+  @apply font-normal text-blue-600 cursor-pointer;
+}
+.link:hover, .link:active {
+  @apply text-blue-500;
+}
+
 @tailwind utilities;
 
 .font-gramers {
